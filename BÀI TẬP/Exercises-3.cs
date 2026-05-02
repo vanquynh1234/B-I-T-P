@@ -6,26 +6,28 @@ namespace BÀI_TẬP
 {
     internal class Exercises_3
     {
-        static void Main()
+        static void MainBai3()
         {
             //Bài 1:
-            double num1 = 10;
-        double num2 = 5;
-        char op = '+';
+            double num1 = 8;
+            double num2 = 4;
 
-        double result = 0;
+            Console.WriteLine("1.Calculator with all operations:\n");
 
-        switch (op)
-        {
-            case '+': result = num1 + num2; break;
-            case '-': result = num1 - num2; break;
-            case '*':
-            case 'x': result = num1* num2; break;
-            case '/': result = num1 / num2; break;
-        }
+            // Addition
+            Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
 
-          Console.WriteLine("1. Calculator:");
-           Console.WriteLine($"{num1} {op} {num2} = {result}\n");
+            // Subtraction
+            Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
+
+            // Multiplication
+            Console.WriteLine($"{num1} * {num2} = {num1 * num2}");
+
+            // Division
+            if (num2 != 0)
+                Console.WriteLine($"{num1} / {num2} = {num1 / num2}");
+            else
+                Console.WriteLine("Cannot divide by zero!");
             // Bài 2:
             Console.WriteLine("2. Function x = y^2 + 2y + 1:");
             for (int y = -5; y <= 5; y++)
