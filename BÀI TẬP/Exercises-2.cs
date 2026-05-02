@@ -9,7 +9,7 @@ namespace BÀI_TẬP
 {
     internal class Exercise_2
     {
-        static void Main()
+        static void MainBai_2()
         {
             // Bài 1: Print Hello and Name
             Console.WriteLine("Hello");
