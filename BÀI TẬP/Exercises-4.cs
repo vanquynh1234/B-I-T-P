@@ -6,7 +6,7 @@ namespace BÀI_TẬP
 {
     internal class Exercises_4
     {
-        public static void Main(string[] args)
+        public static void MainBai4(string[] args)
         {
             ex_01();
             ex_02();
@@ -233,4 +233,4 @@ namespace BÀI_TẬP
             }
         }
     }
-}
+    }
