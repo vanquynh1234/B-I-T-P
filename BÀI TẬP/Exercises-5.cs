@@ -7,10 +7,10 @@ namespace BÀI_TẬP
     internal class Exercises_5
     {
         
-        public static void Main(string[] args)
+        public static void MainBai5(string[] args)
         {
             ex_01();
-            ex_02();
+           
 
         }
         // Bài 1: Tìm số lớn nhất trong 3 số nguyên
@@ -30,30 +30,13 @@ namespace BÀI_TẬP
             Console.WriteLine($"So lon nhat cua 3 so {so_1},{so_2},{so_3} la so {max}");
         }
 
-        // Bài 2: Tính giai thừa của một số nguyên dương
-        static void ex_02()
-        {
-            Console.Write("Nhap mot so nguyen duong: ");
-            int n = int.Parse(Console.ReadLine());
-            long giai_thua = 1;
-            for (int i = 1; i <= n; i++)
-            {
-                giai_thua *= i;
-            }
-            Console.WriteLine($"Giai thua cua {n} la {giai_thua}");
-
-            // Bai 3: Kiểm tra số nguyên tố 
-            static bool IsPrime(int n)
-            {
-                if (n < 2)
-                    return false;
-                for ( int i = 2; i <= )
+       
             }
         }
         
 
 
 
-    }
-}
+    
+
 
