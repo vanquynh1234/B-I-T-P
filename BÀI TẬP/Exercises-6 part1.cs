@@ -11,7 +11,7 @@ namespace BÀI_TẬP
 
         class Program
         {
-            static void Main()
+            static void MainBai6part1()
             {
                 int[] arr = { 5, 8, 3, 5, 2, 8, 9, 1, 3, 7 };
                 Console.WriteLine("Array: " + string.Join(", ", arr));
