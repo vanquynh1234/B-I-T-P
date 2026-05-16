@@ -7,7 +7,7 @@ namespace BÀI_TẬP
     internal class Exercise_6_part2
     {
        
-        static void Main()
+        static void MainBai6part2()
         {
 
 
