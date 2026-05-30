@@ -9,7 +9,7 @@ namespace BÀI_TẬP
         
         
     
-        static void Main()
+        static void Baitap5()
         {
             Console.WriteLine("Bai 1: " + TinhTong(3, 5));
             Console.WriteLine("Bai 2: " + KiemTraChan(4));
